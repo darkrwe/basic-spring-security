@@ -3,7 +3,7 @@
 (Spring Boot + Spring Data JPA + Spring Security + User Pagination with Pageable) Application 
 
 ## Profiles
-* dev1
+* dev
 
 ## Build
 ```
