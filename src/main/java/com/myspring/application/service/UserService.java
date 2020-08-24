@@ -5,6 +5,8 @@ import com.myspring.application.repository.UserRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -52,6 +54,10 @@ public class UserService {
             logger.error("Exception occurred while saving default item to database. " + ex.getMessage());
             return null;
         }
+    }
+
+    public Page<UserEntity> getByNamePaginated(String name, Pageable pageable){
+        return userRepository.findAllByNameContains(name, pageable);
     }
 
 }

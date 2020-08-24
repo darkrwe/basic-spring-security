@@ -1,6 +1,6 @@
 # basic-spring-security
 
-(Spring Boot + Spring Data JPA + Spring Security) Application 
+(Spring Boot + Spring Data JPA + Spring Security + User Pagination with Pageable) Application 
 
 ## Profiles
 * dev
