@@ -20,7 +20,7 @@ import java.util.List;
 public class AdminService {
 
     @Autowired
-    AdminRepository adminRepository;
+    private AdminRepository adminRepository;
 
     private static final Logger logger = LoggerFactory.getLogger(UserService.class);
 
