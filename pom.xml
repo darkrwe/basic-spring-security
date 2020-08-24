@@ -11,7 +11,7 @@
 
     <properties>
         <springframework.boot.version>2.3.3.RELEASE</springframework.boot.version>
-        <mysqlConnectorVersion>5.1.46</mysqlConnectorVersion>
+        <mysqlConnectorVersion>8.0.16</mysqlConnectorVersion>
         <snakeYamlVersion>1.23</snakeYamlVersion>
         <junit.version>4.11</junit.version>
         <java.version>8</java.version>
